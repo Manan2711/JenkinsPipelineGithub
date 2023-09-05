@@ -4,8 +4,8 @@ pipeline{
     environment{
         BUILD_TOOL = "Maven"
 
-        UNIT_TEST_TOOL = "JUnit" 
-        //UNIT_TEST_TOOL = "TestNG" 
+        // UNIT_TEST_TOOL = "JUnit" 
+        UNIT_TEST_TOOL = "TestNG"
         
         CODE_ANALYSIS_TOOL = "SonarQube"
         
